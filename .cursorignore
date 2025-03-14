@@ -1,0 +1,58 @@
+# Laravel vendor directory (dependencies)
+/vendor/
+
+# Node modules
+/node_modules/
+
+# Storage directories that contain user uploads and caches
+/storage/app/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/storage/logs/
+
+# Public storage symlink
+/public/storage/
+
+# Public build assets
+/public/build/
+/public/hot
+/public/css/
+/public/js/
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml
+
+# Build directories
+/bootstrap/cache/
+
+# Composer files
+composer.lock
+
+# NPM/Yarn files
+package-lock.json
+yarn.lock
+
+# IDE specific files
+/.idea/
+/.vscode/
+/.fleet/
+/.phpstorm.meta.php
+/_ide_helper.php
+/_ide_helper_models.php
+
+# Docker
+/docker/
+docker-compose.yml
+Dockerfile
+
+# Misc
+.DS_Store
+Thumbs.db
