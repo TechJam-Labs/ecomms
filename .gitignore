@@ -1,0 +1,61 @@
+# Laravel specific
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel storage
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/storage/app/public/*
+
+# Environment files
+.env
+.env.backup
+.env.*.php
+.env.php
+
+# PHPUnit
+.phpunit.result.cache
+/phpunit.xml
+
+# IDE specific
+/.idea
+/.vscode
+/_ide_helper.php
+/_ide_helper_models.php
+.phpstorm.meta.php
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Application specific
+/public/files/*
+/storage/app/customers/*
+/storage/app/plugins/*
+/storage/app/templates/*
+/storage/app/tmp/*
+/storage/logs/*
+
+# Composer
+composer.phar
+
+# Build files
+/public/hot
+/public/storage
+/public/css/app.css
+/public/js/app.js
+/public/mix-manifest.json
+
+# Testing
+/coverage
+.phpunit.cache
+
+# Misc
+*.log
+*.swp
+*.swo
